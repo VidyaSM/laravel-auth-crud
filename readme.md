@@ -26,4 +26,4 @@ MAIL_PASSWORD=[your-password]
 ```
 - Gmail is the default email that we use in this project, if you use another provider, please check `MAIL_DRIVER` , `MAIL_HOST` , `MAIL_PORT` , `MAIL_ENCRYPTION` configuration as well
 
-- You are good to go !!!
+- If everything has been set up, you are good to go !!!
