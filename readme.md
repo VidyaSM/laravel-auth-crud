@@ -14,3 +14,16 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 - Import `laravel-auth-crud.sql` to MySQL
 - Edit `.env` file
+```
+DB_DATABASE=[your-database-name]
+DB_USERNAME=[your-username]
+DB_PASSWORD=[your-password]
+
+...
+
+MAIL_USERNAME=[your-email]
+MAIL_PASSWORD=[your-password]
+```
+- Gmail is the default email that we use in this project, if you use another provider, please check `MAIL_DRIVER` , `MAIL_HOST` , `MAIL_PORT` , `MAIL_ENCRYPTION` configuration as well
+
+- You are good to go !!!
